@@ -1,5 +1,5 @@
 import java.util.*;
-public class q17 {
+public class pattern2 {
     public static void main(String[] args) {
         System.out.println("enter number");
         Scanner s = new Scanner(System.in);
