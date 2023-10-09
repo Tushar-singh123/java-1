@@ -12,6 +12,7 @@ public class q16 {
             }
             System.out.println();
         }
+        s.close();
     }
     
 }
