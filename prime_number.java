@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q8 {
+public class prime_number {
     public static void main(String[] args) {
         System.out.println("enter number");
         Scanner s = new Scanner(System.in);

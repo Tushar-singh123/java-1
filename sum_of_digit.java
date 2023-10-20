@@ -1,26 +1,19 @@
 import java.util.Scanner;
 
-public class q9 {
+public class sum_of_digit {
     public static void main(String[] args) {
         System.out.println("enter number");
         Scanner s = new Scanner(System.in);
-        int a,r=0,m;
+        int a=0,t=0;
         int n = s.nextInt();
-        m=n;
+        //m=n;
         while(n>0)
         {
             a=n%10;
-            r=r*10+a;
+            t=t+a;
             n=n/10;
         }
-        if(r==m)
-        {
-            System.out.println("it is palimdome number");
-        }
-        else
-        {
-            System.out.println("not a palimdrome number");
-        }
+        System.out.println("sum is "+ t);
         s.close();
     }
 }

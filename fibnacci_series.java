@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q12 {
+public class fibnacci_series {
     public static void main(String[] args) {
         System.out.println("enter range");
         Scanner s = new Scanner(System.in);

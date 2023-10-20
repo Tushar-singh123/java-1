@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q15 {
+public class area_of_circle {
     public static void main(String[] args) {
          System.out.println("enter radius");
         Scanner s = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class q11 {
+public class anagram_string {
     public static void main(String[] args) {
          System.out.println("enter string");
         Scanner s = new Scanner(System.in);

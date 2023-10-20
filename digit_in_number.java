@@ -1,5 +1,5 @@
 import java.util.*;
-public class q5 {
+public class digit_in_number {
     public static void main(String[] args) {
         System.out.println("enter number");
         Scanner s = new Scanner(System.in);

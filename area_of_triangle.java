@@ -1,5 +1,5 @@
 import java.util.*;
-public class q14 {
+public class area_of_triangle {
     public static void main(String[] args) {
         System.out.println("enter hight and base");
         Scanner s = new Scanner(System.in);

@@ -1,7 +1,7 @@
 
 
 import java.util.*;
-public class q3 {
+public class tax_on_salary {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("enter salary");

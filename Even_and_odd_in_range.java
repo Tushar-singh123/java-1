@@ -1,5 +1,5 @@
 import java.util.*;
-public class ip {
+public class Even_and_odd_in_range {
     public static void main(String[] args) 
     {
         Scanner s = new Scanner(System.in);

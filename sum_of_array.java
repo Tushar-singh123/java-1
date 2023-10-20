@@ -1,4 +1,4 @@
-public class t2 {
+public class sum_of_array {
     
         public static void main(String[] args) {
             int sum = 0;

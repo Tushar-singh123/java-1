@@ -1,19 +1,26 @@
 import java.util.Scanner;
 
-public class q6 {
+public class palimdrome_number {
     public static void main(String[] args) {
         System.out.println("enter number");
         Scanner s = new Scanner(System.in);
-        int a=0,t=0;
+        int a,r=0,m;
         int n = s.nextInt();
-        //m=n;
+        m=n;
         while(n>0)
         {
             a=n%10;
-            t=t+a;
+            r=r*10+a;
             n=n/10;
         }
-        System.out.println("sum is "+ t);
+        if(r==m)
+        {
+            System.out.println("it is palimdome number");
+        }
+        else
+        {
+            System.out.println("not a palimdrome number");
+        }
         s.close();
     }
 }
