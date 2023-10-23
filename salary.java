@@ -1,5 +1,5 @@
 import java.util.*;
-public class fun1 {
+public class salary {
     static double hra(int s)
     {
         double h;
