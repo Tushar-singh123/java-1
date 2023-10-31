@@ -14,7 +14,15 @@ public class prime_number {
                 break;
             }
         }
-        if((c+1)>(n/2))
+        if((n==2)||(n==3))
+        {
+            System.out.println("it is prime number");
+        }
+        else if((n==4)||(n==1))
+        {
+            System.out.println("not a prime number");
+        }
+        else if((c+1)>(n/2))
         {
             System.out.println("it is prime number");
         }
